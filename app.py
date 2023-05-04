@@ -12,7 +12,7 @@ heroes = {
     "enemy": BaseUnit
 }
 
-#secret2
+#secret3
 
 arena = Arena()
 
