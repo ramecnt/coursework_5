@@ -25,4 +25,4 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           script: |
-            echo ${{ secrets.PASSWORD }} | sudo -S docker run -d -p 80:80 ramecnt/skypro-ramecnt-game:main-4881914427
+            echo ${{ secrets.PASSWORD }} | sudo -S docker run -d ramecnt/skypro-ramecnt-game:main-4881914427
