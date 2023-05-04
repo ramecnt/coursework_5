@@ -117,6 +117,5 @@ def choose_enemy():
         heroes["enemy"] = enemy
         return redirect(url_for("start_fight"))
 
-
 if __name__ == "__main__":
     app.run()
